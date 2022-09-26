@@ -9,6 +9,7 @@ class Test {
         System.out.println(obj.getInterestRate());
         // Return 3
         System.out.println(obj2.getInterestRate());
-        // Return void
+        // Return 3
+        // Weil gleiches Objekt
     }
 }

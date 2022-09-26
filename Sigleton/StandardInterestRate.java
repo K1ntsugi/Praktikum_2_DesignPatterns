@@ -24,4 +24,8 @@ class StandardInterestRate {
 		return this.interestRate;
 	}
 
+	public void setInterestRate(float x) {
+		interestRate = x;
+	}
+
 }
