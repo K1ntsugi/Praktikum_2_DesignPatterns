@@ -19,6 +19,8 @@ class StandardInterestRate {
 	 * };
 	 */
 
+	// falls Parralellisiert -> gleih instanziieren oder Methode synchronisieren,
+	// ersteres ist effizienter
 	public static StandardInterestRate getInstance() {
 		if (instance == null)
 			instance = new StandardInterestRate();
