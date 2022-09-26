@@ -10,9 +10,14 @@ class StandardInterestRate {
 		this.interestRate = 3.0F;
 	}
 
-	private StandardInterestRate(float interestRate) {
-		this.interestRate = interestRate;
-	};
+	/*
+	 * Wenn Konstruktor überladen wird, muss entsprechend in der getInstance-Methode
+	 * durch Parameter abgefangen werden
+	 * 
+	 * private StandardInterestRate(float interestRate) {
+	 * this.interestRate = interestRate;
+	 * };
+	 */
 
 	public static StandardInterestRate getInstance() {
 		if (instance == null)
