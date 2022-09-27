@@ -8,4 +8,8 @@ public class Regulator {
         this.manufacturer = manufacturer;
     }
 
+    public String getManufacturer() {
+        return this.manufacturer;
+    }
+
 }

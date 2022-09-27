@@ -8,4 +8,8 @@ public class Engine {
         this.manufacturer = manufacturer;
     }
 
+    public String getManufacturer() {
+        return this.manufacturer;
+    }
+
 }
