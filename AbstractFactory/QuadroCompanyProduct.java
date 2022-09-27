@@ -2,6 +2,9 @@ package AbstractFactory;
 
 public class QuadroCompanyProduct extends Quadrocopter {
 
+    Engine productA;
+    Regulator productB;
+
     public QuadroCompanyProduct(Regulator regulator, Engine engine) {
         super(regulator, engine);
         if (regulator.getManufacturer().equals(engine.getManufacturer())) {
@@ -12,7 +15,7 @@ public class QuadroCompanyProduct extends Quadrocopter {
 
     @Override
     public Quadrocopter createQuadrocopter() {
-        return new QuadroCompanyProduct(regulator, productA);
+        return new QuadroCompanyProduct(productB, productA);
     }
 
 }
