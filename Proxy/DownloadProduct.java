@@ -1,2 +1,5 @@
-package Proxy;public interface DownloadProduct {
+package Proxy;
+
+public interface DownloadProduct {
+    public void downloadProduct();
 }

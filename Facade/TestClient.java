@@ -1,2 +1,7 @@
-package Facade;public class TestClient {
+package Facade;
+
+public class TestClient {
+    public static void main(String[] args) {
+
+    }
 }

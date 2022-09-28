@@ -1,2 +1,4 @@
-package Decorator;public class MacBookPro {
+package Decorator;
+
+public class MacBookPro extends Macbook{
 }

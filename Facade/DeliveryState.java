@@ -1,2 +1,10 @@
-package Facade;public class DeliveryState {
+package Facade;
+
+public enum DeliveryState {
+    Erhalten,
+    Erfasst,
+    Verpackt,
+    Versandt,
+    InZustellzentrum,
+    Zugestellt
 }
