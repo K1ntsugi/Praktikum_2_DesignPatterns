@@ -1,2 +1,7 @@
-package Zustand;public class TestClient {
+package Zustand;
+
+public class TestClient {
+    public static void main(String[] args) {
+
+    }
 }

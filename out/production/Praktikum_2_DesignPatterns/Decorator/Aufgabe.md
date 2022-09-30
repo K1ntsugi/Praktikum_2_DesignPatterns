@@ -1,0 +1,3 @@
+Wenn Sie ein Notebook wie das MacBook kaufen, existiert neben den Grundvarianten wie MacBook Pro und MacBook Air noch eine Vielzahl an weiteren Ausstattungsmerkmalen, die Sie ergänzen können.
+In dieser Aufgabe wollen wir das Design Pattern Decorator nutzen, um in der Lage zu sein, die MacBook-Grundvarianten (MacBookPro und MacBookAir) 
+mit den zusätzlichen Ausstattungen (MacBookAddon) „Touchbar“ (AddonTouchbar) und „M1 Pro“ (AddonM1ProProcessor) zu versehen.

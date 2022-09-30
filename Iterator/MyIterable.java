@@ -1,5 +1,5 @@
 package Iterator;
 
-public interface Aggregate {
-    public void createIterator();
+public interface MyIterable<E> {
+    MyIterator createIterator();
 }

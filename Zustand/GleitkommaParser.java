@@ -1,2 +1,5 @@
-package Zustand;public class GleitkommaParser {
+package Zustand;
+
+public class GleitkommaParser {
+
 }

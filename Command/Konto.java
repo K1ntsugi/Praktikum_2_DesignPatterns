@@ -1,10 +1,6 @@
 package Command;
 
 public class Konto{
-    //Geld addieren und subtrahieren
-    //Klint drückt: Geld Einzahlen oder auszahle//Geld addieren und subtrahieren
-    //Klint drückt: Geld Einzahlen oder auszahlenn
-
     private String inhaber;
     private int password;
     private double saldo;
@@ -42,17 +38,15 @@ public class Konto{
         return rahmenkredit;
     }
 
-    public void setRahmenkredit(double rahmenkredit) {
-        this.rahmenkredit = rahmenkredit;
-    }
-
     public void einzahlen(double betrag){
         this.saldo = saldo + betrag;
     }
 
     public void auszahlen(double betrag){
         double überzogen = saldo-betrag;
-        if(überzogen < rahmenkredit)
+        if(überzogen < rahmenkredit){
+            System.out.println("Auszahlung nicht möglich. Rahmenkredit ausgeschöpft");
+        }
         this.saldo = saldo -betrag;
 
 

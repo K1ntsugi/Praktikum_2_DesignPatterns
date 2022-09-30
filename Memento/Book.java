@@ -1,9 +1,16 @@
 package Memento;
 
-class Book {
+class Book{
 
-    public class BookMemento {
+    public static class BookMemento extends Caretaker{
         private final String state;
+        private String titel;
+        private String inhalt;
+        private int isbn;
+
+        public String getState() {
+            return state;
+        }
 
         public BookMemento(String stateToSave){
             state = stateToSave;
@@ -19,13 +26,14 @@ class Book {
     private int isbn;
     private String state;
 
-    private BookMemento mem;
-
-    public Book(){
-        mem = new BookMemento("Erster Zustand");
+    public Book(String titel, String inhalt, int isbn) {
+        this.titel = titel;
+        this.inhalt = inhalt;
+        this.isbn = isbn;
+        this.state = "Initialisiert";
     }
 
-    public void set(String state){
+    public void setState(String state){
         this.state = state;
         System.out.println("Buch: Setze Status auf: " + state);
     }
@@ -36,6 +44,7 @@ class Book {
     }
 
     public void restoreFromMemento(BookMemento memento){
+
         this.state = memento.getSavedState();
         System.out.println("Buch: Zustand nach Wiederherstellung des Zustands von Memento: " + state);
     }

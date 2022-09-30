@@ -1,2 +1,5 @@
-package Iterator;public class Channel {
+package Iterator;
+
+public class Channel {
+    //Concreter Iterator
 }
