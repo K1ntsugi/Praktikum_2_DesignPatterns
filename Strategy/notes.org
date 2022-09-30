@@ -1,0 +1,9 @@
+* Problem
+Verschiedene Algorithmen lösen ein Problem. Wir können/sollten aber nicht jder Klasse z.B. alle Sortieralgorithmen mitgeben
+
+* Lösung
+„Definition einer Familie von einzeln gekapselten, austauschbaren Algorithmen. Das
+Design Pattern Strategy (Strategie) ermöglicht eine variable und von den Clients
+unabhängige Nutzung des Algorithmus.“
+
+./home/maxgr/Bilder/Bildschirmfotos/"Bildschirmfoto vom 2022-09-29 14-24-09.png"
